@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Successfull account create</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body {
+            min-height: 100vh; display: flex; justify-content: center; align-items: center;
+            background: linear-gradient(135deg, #6a11cb, #2575fc); color: #fff; padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1); padding: 2rem; border-radius: 1rem;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25); width: 100%; max-width: 420px;
+            animation: fadeIn 0.8s ease-in-out; text-align: center;
+        }
+        h2 { margin-bottom: 1rem; }
+        button {
+            margin-top: 1rem; padding: 0.75rem 1.2rem; background: #2575fc;
+            border: none; border-radius: 0.5rem; color: white; cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        button:hover { background: #1d63d6; transform: translateY(-2px); box-shadow: 0 6px 15px rgba(0,0,0,0.2); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px);} to { opacity: 1; transform: translateY(0);} }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Account Created</h2>
+    <p>Your account has been successfully created.</p>
+    <a href="signin.html"><button>Sign In Now</button></a>
+</div>
+</body>
+</html>

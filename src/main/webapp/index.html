@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg, #6a11cb, #2575fc);
+	color: #fff;
+	padding: 20px;
+}
+
+.container {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+	width: 100%;
+	max-width: 420px;
+	animation: fadeIn 0.8s ease-in-out;
+}
+
+h1, h2 {
+	text-align: center;
+	margin-bottom: 1.5rem;
+	font-weight: 600;
+}
+
+p {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+button {
+	padding: 0.75rem 1.2rem;
+	background: #2575fc;
+	border: none;
+	border-radius: 0.5rem;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background: #1d63d6;
+	transform: translateY(-2px);
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {from { opacity:0;
+	transform: translateY(20px);
+}
+
+to {
+	opacity: 1;
+	transform: translateY(0);
+}
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to Our Platform</h1>
+		<p>Please sign in or create an account to continue.</p>
+		<div style="display: flex; gap: 1rem; justify-content: center;">
+			<a href="signin.html"><button>Sign In</button></a> <a
+				href="signup.html"><button>Create Account</button></a>
+		</div>
+	</div>
+</body>
+</html>
