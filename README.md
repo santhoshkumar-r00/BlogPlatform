@@ -63,6 +63,7 @@ This project demonstrates a mini blog platform where users can **sign up, sign i
 
       Apache TomCat Server v9(https://tomcat.apache.org/download-90.cgi)
 
+<img width="407" height="898" alt="Screenshot 2025-08-21 205154" src="https://github.com/user-attachments/assets/25a0543d-17cf-41f3-a9a4-6e7db1759d43" />
 
 
         
